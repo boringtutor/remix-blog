@@ -1,38 +1,15 @@
-# Welcome to Remix!
+# Boring blogs (written in remix)
 
-- [Remix Docs](https://remix.run/docs)
+[![Build Status][build-badge]][build]
+[![GPL 3.0 License][license-badge]][license]
 
-## Development
+## Contributing
 
-From your terminal:
+Read CONTRIBUTING.md
 
-```sh
-npm run dev
-```
-
-This starts your app in development mode, rebuilding assets on file changes.
-
-## Deployment
-
-First, build your app for production:
-
-```sh
-npm run build
-```
-
-Then run the app in production mode:
-
-```sh
-npm start
-```
-
-Now you'll need to pick a host to deploy it to.
-
-### DIY
-
-If you're familiar with deploying node applications, the built-in Remix app server is production-ready.
-
-Make sure to deploy the output of `remix build`
-
-- `build/`
-- `public/build/`
+<!-- prettier-ignore-start -->
+[build-badge]: https://img.shields.io/github/workflow/status/kentcdodds/kentcdodds.com/pipeline?logo=github&style=flat-square
+[build]: https://github.com/kentcdodds/kentcdodds.com/actions?query=workflow%3Apipeline
+[license-badge]: https://img.shields.io/badge/license-GPL%203.0%20License-blue.svg?style=flat-square
+[license]: https://github.com/kentcdodds/kentcdodds.com/blob/main/LICENSE.md
+<!-- prettier-ignore-end -->
